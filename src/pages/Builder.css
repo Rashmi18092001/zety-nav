@@ -1,0 +1,142 @@
+body {
+    display: block;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.HeadArticle {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.Head_Image {
+    height: 350px;
+    width: 420px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.HeadCard {
+    padding: 40px;
+    width: 50%;
+}
+
+.Cards {
+    display: flex;
+    margin:0px 10px;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.Headbutton {
+    color: black;
+    border-color: #ffc85e;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    align-items: center;
+    border-style: none;
+    background-color: #ffc85e;
+}
+
+.Headbutton:hover {
+    border-style: dotted;
+    border-color: blue;
+    border-style: 2px;
+}
+
+.Stepimage {
+    width: 190px;
+    height: 200px;
+    border-radius: 9px;
+}
+
+.StepCard {
+    width: 200px;
+    height: 440px;
+    border: 0px solid black;
+    align-items: center;
+    padding: 7px;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 9px;
+}
+
+.StepButton {
+    text-align: center;
+    height: 25px;
+    width: 60px;
+    margin-left: 60px;
+padding-bottom: 15px;
+    color: aliceblue;
+    background-color: rgb(90, 94, 92);
+    border-radius: 5px;
+}
+
+.StepsButton {
+    color: black;
+    background-color: orange;
+    height: 50px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: 0px soild orange;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    white-space: nowrap;
+    background: #ffc85e;
+    border-color: #ffc85e;
+    color: #07142b;
+}
+.Button {
+    color: black;
+    background-color: orange;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: 0px soild orange;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    white-space: nowrap;
+    background: #ffc85e;
+    border-color: #ffc85e;
+    color: #07142b;
+}
+
+.TemplateImage {
+    height: 250px;
+    width: 190px;
+}
+
+.templatesection {
+    height: 250px;
+    width: 190px;
+    margin: 10px 10px;
+    border: 1px soild black;
+    box-shadow: 5px 10px 8px #888888;
+    border: 0px solid;
+    padding: 7px;
+    gap :20px;
+    box-shadow: 5px 10px 8px #888888;
+    transition: transform .2s;
+    /* Animation */
+}
+
+.templatesection:hover {
+    transform: scale(1.2);
+}
+
+.templatesection:hover+.HoverButton {
+    transform: scale(1.2);
+    display: block;
+}
+
+.Card {
+    display: flex;
+    margin: 20px;
+    height: 400px;
+}

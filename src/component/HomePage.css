@@ -1,0 +1,401 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Main {
+  text-align: center;
+  justify-content: center;
+}
+
+.HeadArticle {
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.Headbutton {
+  color: black;
+  border-color: #ffc85e;
+  height: 50px;
+  width: 190px;
+  border-radius: 20px;
+  align-items: center;
+  border-style: none;
+}
+
+.Headbutton:hover {
+  border-style: dotted;
+  border-color: blue;
+  border-style: 2px;
+}
+
+.HeadImage {
+  height: 300px;
+  width: 50%;
+  margin: 15px;
+}
+
+.HeadCard {
+  padding: 60px;
+}
+
+.Stepimage {
+  width: 250px;
+  height: 250px;
+  border-radius: 9px;
+}
+
+.StepCard {
+  width: 250px;
+  height: 450px;
+  border: 0px solid black;
+  align-items: center;
+  border: 0px solid;
+  padding: 7px;
+  box-shadow: 5px 10px 8px #888888;
+  margin: 10px;
+  border-radius: 9px;
+}
+
+.StepButton {
+  text-align: center;
+  padding-top: 2px;
+  height: 35px;
+  width: 60px;
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: rgb(90, 94, 92);
+  border-radius: 5px;
+}
+
+.Cards {
+  display: flex;
+  margin: 20px;
+
+}
+
+.Card {
+  display: flex;
+  margin: 20px;
+  height: 400px;
+}
+
+.StepsButton {
+  color: black;
+  background-color: orange;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: 0px soild orange;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  white-space: nowrap;
+  background: #ffc85e;
+  border-color: #ffc85e;
+  color: #07142b;
+}
+
+.TemplateImage {
+  height: 250px;
+  width: 250px;
+}
+
+.templatesection {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  border: 1px soild black;
+  box-shadow: 5px 10px 8px #888888;
+  border: 0px solid;
+  padding: 7px;
+  box-shadow: 5px 10px 8px #888888;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.templatesection:hover {
+  transform: scale(1.2);
+}
+
+.templatesection:hover+.HoverButton {
+  transform: scale(1.2);
+  display: block;
+}
+
+.ContentSection {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.HoverButton {
+  display: none;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: #103472;
+  border-style: 0px soild #103472;
+  border-radius: 20px;
+  position: absolute;
+  border: none;
+}
+
+.ColorSection {
+  background-color: #07142b;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.ColorSectionButton {
+  height: 70px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+/* another section*/
+.HoveredCard {
+  height: 450px;
+  width: 250px;
+
+  padding-top: 20px;
+  padding: 20px;
+}
+
+.HoverImage {
+  height: 300px;
+  width: 200px;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.HoverImage:hover {
+  transform: scale(1.2);
+}
+
+.HoverRows {
+  display: flex;
+  margin: 30px;
+  gap: 90px;
+}
+
+/* another section*/
+.Contents {
+  margin: 40px;
+  display: block;
+}
+
+.Button {
+  text-align: center;
+  padding-top: 2px;
+  height: 70px;
+  width: 270px;
+  font-size: medium;
+
+  margin-top: 40px;
+  background-color: #ffc85e;
+  ;
+  border-radius: 40px;
+  border: none;
+}
+
+.lists {
+  text-align: left;
+  line-height: 200%;
+  margin: 70px;
+}
+
+.LastButton {
+  color: white;
+  background-color: #072965;
+  border-radius: 40px;
+  border: none;
+  height: 50px;
+  width: 180px;
+}
+
+.LastButton:hover {
+  background-color: #0e5add;
+}
+
+/* Resume Templates page*/
+.Pages {
+  display: block;
+  text-align: center;
+  margin: 40px;
+}
+
+.PageButton {
+  height: 35px;
+  width: 200px;
+  color: black;
+  background-color: #d4b30f;
+  border-radius: 30px;
+  border: none;
+}
+
+.CardSection {
+  height: 550px;
+  width: 300px;
+  padding: 20px;
+  transition: transform .2s;
+  /* Animation */
+  box-shadow: 2px 2px 5px lightblue;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding-top: 6px;
+
+}
+
+.SectionHover {
+  height: 380px;
+  width: 300px;
+
+  gap: 30px;
+}
+
+.CardSection:hover {
+  transform: scale(1.1);
+}
+
+.HoverSection {
+  display: flex;
+  gap: 40px;
+}
+
+.temp-btn {
+  padding: 0.5rem;
+  background-color: #040e65;
+  width: fit-content;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 27%;
+  transition: transform 0.5s ease-in-out;
+  display: none;
+}
+
+.CardSection:hover+.temp-btn {
+  transform: translate(-50%, -10px);
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+.crd {
+  height: 160px;
+
+}
+
+.crds {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+}
+
+.Button {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+  background-color: #d4b30f;
+  position: relative;
+  text-align: center;
+  margin-left: 40%;
+
+}
+
+.Scroll {
+  margin-top: 30px;
+  padding: 4px;
+  background-color: #888888;
+  width: 40%;
+  height: 500px;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.secs {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  gap: 30px;
+}
+
+.sec {
+  width: 50%;
+  margin: 10px;
+}
+
+.Cards {
+  height: 200px;
+  width: 300px;
+  display: block;
+
+}
+
+.CardImage {
+
+  padding-left: 30px;
+  height: 250px;
+  width: 250px;
+  transition: transform .2s;
+  /* Animation */
+
+}
+
+.CardImage:hover {
+  transform: scale(1.1);
+}
+
+.Card {
+  display: flex;
+  gap: 60px;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+  background-color: #d4b30f;
+  position: relative;
+  text-align: center;
+  margin-left: 40%;
+
+}
+
+.templatesecs {
+  height: 250px;
+  width: 200px;
+  border: 1px soild black;
+  box-shadow: 5px 10px 8px #888888;
+  border: 0px solid;
+  margin-left: 30px;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.LastButton {
+  color: white;
+  background-color: #072965;
+  border-radius: 40px;
+  border: none;
+  height: 50px;
+  width: 180px;
+}
+
+.LastButton:hover {
+  background-color: #0e5add;
+}
+ 

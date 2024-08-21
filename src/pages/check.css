@@ -1,0 +1,374 @@
+
+.ats-resume-checker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+
+}
+
+.content{
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+
+.ats-resume-checker .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fffdfd;
+}
+
+.content h1 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.text-black {
+  color: black;
+}
+
+.check-resume-button {
+  padding: 15px 30px;
+  background-color: #fbd460;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.check-resume-button:hover {
+  background-color: #e6b854;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-left: 30px;
+  width: 250px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/***2nd***/
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* Main content takes 2 parts, sidebar 1 part */
+  gap: 30px;
+  /* Space between the two columns */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+.main-content {
+  text-align: left;
+  /* Aligns text to the left */
+  margin: 0;
+  /* Remove any default margin */
+  padding: 0 20px;
+  /* Add some padding on the sides */
+  box-sizing: border-box;
+  /* Include padding in the element's total width and height */
+}
+
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  /* Space below the heading */
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.main-content p {
+  margin-bottom: 20px;
+  /* Space between paragraphs */
+  line-height: 1.6;
+  /* Line height for better readability */
+  color: #333;
+  /* Text color for better readability */
+}
+
+.sidebar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the score section */
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.score-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score-image {
+  height: 300px;
+  width: 300px;
+}
+
+.score-text {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.score-details p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+ul.custom-list li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+ul.custom-list li::before {
+
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #ca2a2a;
+  border-radius: 50%;
+}
+
+
+/* Responsive styles */
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+    /* Stack the columns on smaller screens */
+  }
+
+  .main-content {
+    padding-right: 0;
+  }
+
+  .sidebar {
+    margin-top: 20px;
+  }
+}
+
+/*3rd*/
+
+.ats-container {
+  padding: 150px;
+
+  align-items: center;
+
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #007BFF;
+}
+
+.text-content {
+  max-width: 400px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.check-button {
+  display: block;
+  width: 200px;
+  margin: 40px auto 0;
+  padding: 10px;
+  background-color: #FFC107;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.check-button:hover {
+  background-color: #FFA000;
+}
+
+
+/**/
+
+.text-black {
+
+  font-size: 2em;
+  /* Adjust the font size as needed */
+
+  display: flex;
+  align-items: center;
+  /* Center align the text vertically */
+}
+
+
+/*4th*/
+
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.faq-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.faq-section {
+  margin-bottom: 30px;
+}
+
+.faq-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.faq-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.faq-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+
+
+}
+
+.steps-list {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  color: black;
+}
+
+.steps-list li {
+  margin-bottom: 10px;
+
+  color: black;
+}
+
+.see-more-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.see-more-button:hover {
+  background-color: #ddb347;
+}
+
+.faq-divider {
+  border: 0;
+  height: 1px;
+  background: #007BFF;
+  margin: 20px 0;
+}
+
+
+/**5th***/
+
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.cta-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #007BFF;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background-color: #f0f0f0;
+}

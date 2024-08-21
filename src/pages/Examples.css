@@ -1,0 +1,225 @@
+#root {
+  color: rgb(109, 106, 106);
+  display: block;
+  font-size: medium;
+  text-align: center;
+  margin: 4rem 10rem;
+  padding: 0;
+}
+
+.HeadArticle {
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.Head-button {
+  color: black;
+  background-color: #ffc85e;
+  height: 50px;
+  width: 190px;
+  border-radius: 20px;
+  align-items: center;
+  border-style: none;
+}
+
+.Head-button:hover {
+  border-style: dotted;
+  border-color: blue;
+  border-style: 2px;
+}
+
+.Head-Image {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.HeadCard {
+  padding: 60px;
+}
+
+.Stepimage {
+  width: 250px;
+  height: 250px;
+  border-radius: 9px;
+}
+
+.StepCard {
+  width: 250px;
+  height: 450px;
+  border: 0px solid black;
+  align-items: center;
+  border: 0px solid;
+  padding: 7px;
+  box-shadow: 5px 10px 8px #888888;
+  margin: 10px;
+  border-radius: 9px;
+}
+
+.StepButton {
+  text-align: center;
+  padding-top: 2px;
+  height: 35px;
+  width: 60px;
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: rgb(90, 94, 92);
+  border-radius: 5px;
+}
+
+.Cards {
+  display: flex;
+  margin: 20px;
+
+}
+
+.Card {
+  display: flex;
+  margin: 20px;
+  height: 400px;
+}
+
+.StepsButton {
+  color: black;
+  background-color: orange;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: 0px soild orange;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  white-space: nowrap;
+  background: #ffc85e;
+  border-color: #ffc85e;
+  color: #07142b;
+}
+
+.TemplateImage {
+  height: 250px;
+  width: 250px;
+}
+
+.templatesection {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  border: 1px soild black;
+  box-shadow: 5px 10px 8px #888888;
+  border: 0px solid;
+  padding: 7px;
+  box-shadow: 5px 10px 8px #888888;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.templatesection:hover {
+  transform: scale(1.2);
+}
+
+.templatesection:hover+.HoverButton {
+  transform: scale(1.2);
+  display: block;
+}
+
+.ContentSection {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.HoverButton {
+  display: none;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: #103472;
+  border-style: 0px soild #103472;
+  border-radius: 20px;
+  position: absolute;
+  border: none;
+}
+
+.ColorSection {
+  background-color: #07142b;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.ColorSectionButton {
+  height: 70px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.ResumeImage {
+  height: 400px;
+  width: 300px;
+}
+
+.ResumeArticle {
+  display: flex;
+
+}
+
+.ResumeCard {
+  height: 400px;
+  margin-top: 100px;
+  text-align: left;
+  gap: 30px;
+  margin: 40px;
+
+}
+
+.Resume_item {
+  height: 270px;
+  width: 200px;
+  gap: 30px;
+  padding: 30px;
+}
+
+.faq-container {
+  font-family: Arial, sans-serif;
+}
+
+.faq-container h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.faq-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.faq-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+
+.see-more-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.see-more-button:hover {
+  background-color: #ddb347;
+}
+
+.faq-divider {
+  border: 0;
+  height: 1px;
+  background: #007BFF;
+}
