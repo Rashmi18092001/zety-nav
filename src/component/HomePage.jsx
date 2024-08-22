@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-// import Navbar from './navbar'
-// import Nav from './Nav'
 import Navbar from './Nav1';
 import cutting from './Images/cutting.png'
 import experience from './Images/experience (1).png'

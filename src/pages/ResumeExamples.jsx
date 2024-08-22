@@ -9,7 +9,7 @@ import card5 from './Images/manager-resume-example@3x.png'
 import card6 from './Images/nurse-resume-example@3x.png'
 //import image from './Images/zety-resume-example@3x.webp'
 import './Examples.css'
-import Nav from '../component/Nav'
+
 import React, { useState } from 'react';
 function ResumeExamples() {
   const [showMore, setShowMore] = useState(false);
@@ -18,7 +18,7 @@ function ResumeExamples() {
         setShowMore(!showMore);
       };
   return (<>
-  <Nav/>
+  
     <section className="HeadArticle">
       <div className="HeadCard col-lg-6">
         <h2>Resume Examples & Samples

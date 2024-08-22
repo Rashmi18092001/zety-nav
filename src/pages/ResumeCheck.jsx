@@ -12,7 +12,7 @@ const Resumecheck = () => {
 
      
   return <>
-  <Nav/>
+
   <div className='hero-container'>
     {/* 1st part */}
 <div className="ats-resume-checker">

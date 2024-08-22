@@ -3,7 +3,7 @@ import React from 'react';
 //import profilePic from '../Resume/profilePic.jpg'; // Add the correct path to the profile picture
 import './write-resume.css'
 
-function writtingresume() {
+function Writtingresume() {
   return (
     <div className="container1-main">
       <div className="app-container">
@@ -532,4 +532,4 @@ function writtingresume() {
   );
 }
 
-export default writtingresume;
+export default Writtingresume;
